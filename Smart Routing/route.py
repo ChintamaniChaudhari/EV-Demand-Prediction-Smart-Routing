@@ -72,8 +72,8 @@ if st.button("Plan Trip"):
     route_path = get_route(start, end, ors_api_key)
 
     # MapmyIndia Token
-    client_id = "96dHZVzsAutvtSRMc7fRYSZyuU9bFs6xfRT5CbgKG35S2IpnJhDrowntHp_qoiq54s8BkJstKkHwZuPRgIpQTw=="
-    client_secret = "<your_MapmyIndia_Token>"
+    client_id = "your_MapmyIndia_Token_client_id"
+    client_secret = "<your_MapmyIndia_Token_client_secret>"
     token = get_mapmyindia_token(client_id, client_secret)
 
     st.markdown(f"""
