@@ -68,12 +68,12 @@ if st.button("Plan Trip"):
     st.success(f"Route from {start_city} to {end_city} being generated...")
 
     # ROUTE PATH
-    ors_api_key = "5b3ce3597851110001cf6248f6655560e2024f9aaef104f6bc121d7b"
+    ors_api_key = "<your_ors_api_key>"
     route_path = get_route(start, end, ors_api_key)
 
     # MapmyIndia Token
     client_id = "96dHZVzsAutvtSRMc7fRYSZyuU9bFs6xfRT5CbgKG35S2IpnJhDrowntHp_qoiq54s8BkJstKkHwZuPRgIpQTw=="
-    client_secret = "lrFxI-iSEg-hmrj6DJs0b_PR-f-1HOlBz-YsGkTxUT4RLmavHbW5i4wUxmTD_h3SLLAke2YnZYMJYqfSB8sEFCjCKMvzmWgh"
+    client_secret = "<your_MapmyIndia_Token>"
     token = get_mapmyindia_token(client_id, client_secret)
 
     st.markdown(f"""
