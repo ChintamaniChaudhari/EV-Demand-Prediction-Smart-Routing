@@ -14,11 +14,7 @@ A dual-component system designed to optimize electric vehicle (EV) charging infr
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
-- [Usage](#usage)
-- [Screenshots & Demo](#screenshots--demo)
 - [Future Scope](#future-scope)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## 🧐 Problem Statement
 
